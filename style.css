@@ -1,0 +1,27 @@
+body {
+    background-color: antiquewhite;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+
+
+    width: 80vw;
+    height: 60vh;
+    border-radius: 25px;
+}
+
+#sidebar-left {
+    background-image: url('https://images.unsplash.com/photo-1583372292838-b1edffcb8044');
+    height: 600px;
+    width: 400px;
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
