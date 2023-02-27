@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Orbitron:wght@400;500;700&family=Roboto:wght@100;300;400;700&family=Ubuntu&display=swap"
+        rel="stylesheet">
     <title>Jelly Fisher</title>
 </head>
 
@@ -13,22 +18,19 @@
     <main>
         <div id="sidebar-left"></div>
         <div id="sidebar-right">
-            <div id="opening">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, veniam velit, voluptatem, impedit aliquam cumque dolorum aspernatur ea natus ullam unde necessitatibus numquam illo reiciendis! Facilis nihil minus harum pariatur!</div>
+            <div id="opening">
+                <p>They are not jelly.</p>
+                <p>They are not even fish.</p>
+                <p>We, the Jellyfish Deniers, believe Jellyfish need a new and better name.</p>
+                <p>Join our cause</p>
+            </div>
             <form action="#">
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name">
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name">
+                <label for="fullname">Name</label>
+                <input type="text" name="fullname" id="fullname" placeholder="John Doe">
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" placeholder="jelly@fish.com" required>
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-                <label for="password-c">Confirm Password</label>
-                <input type="password-c" name="password-c" id="password-c">
-                <label for="phone">Phone Number</label>
-                <input type="number" name="phone" id="phone">
-
-    
+                <input type="password" name="password" id="password" placeholder="8-16 characters">
                 <button type="submit">Sign Up</button>
             </form>
             <div id="closing">
@@ -36,9 +38,9 @@
             </div>
         </div>
     </main>
-    <footer>
+    <!-- <footer>
         <p>&copy;Jelly Fisher 2023</p>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
