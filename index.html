@@ -6,34 +6,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Orbitron:wght@400;500;700&family=Roboto:wght@100;300;400;700&family=Ubuntu&display=swap"
-        rel="stylesheet">
     <title>Jelly Fisher</title>
 </head>
 
 <body>
     <main>
-        <div id="sidebar-left"></div>
-        <div id="sidebar-right">
-            <div id="opening">
+        <div class="sidebar-left"></div>
+        <div class="sidebar-right">
+            <div class="opening">
                 <p>They are not jelly.</p>
                 <p>They are not even fish.</p>
                 <p>We, the Jellyfish Deniers, believe Jellyfish need a new and better name.</p>
                 <p>Join our cause</p>
             </div>
-            <form action="#">
-                <label for="fullname">Name</label>
-                <input type="text" name="fullname" id="fullname" placeholder="John Doe">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="jelly@fish.com" required>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="8-16 characters">
-                <button type="submit">Sign Up</button>
+            <form class="signup-form" action="#">
+                <div class="input-container">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="John">
+                    <p class="feedback">Very Good</p>
+                </div>
+                <div class="input-container">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Doe">
+                    <p class="feedback">Keep going, ...</p>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="jelly@fish.com" required>
+                    <p class="feedback">Nice one</p>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Phone Number</label>
+                    <input type="number" name="phone" id="phone">
+                    <p class="feedback">We'll keep it secret</p>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="8-16 characters">
+                    <p class="feedback">Sufficient enough</p>
+                </div>
+                <div class="input-container">
+                    <label for="confirm-password"> Confirm Password</label>
+                    <input type="confirm-password" name="confirm-password" id="password" placeholder="8-16 characters">
+                    <p class="feedback">Password is confirmed</p>
+                </div>
+                <div class="input-container">
+                    <button type="submit">Sign Up</button>
+                    <p class="feedback">Let's go!</p>
+                </div>
             </form>
-            <div id="closing">
+            <div class="closing">
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
